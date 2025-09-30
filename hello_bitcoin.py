@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 Title - Hello Bitcoin
-This program demonstrates the creation of 
+This program demonstrates the creation of
 - private key
 - public key
 - and a bitcoin address.

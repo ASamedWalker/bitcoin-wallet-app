@@ -1,0 +1,19 @@
+# SimplyHTML Payment Button
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimplyHTML Payment Button</title>
+</head>
+<body>
+  <form method="POST" action="https://testnet.demo.btcpayserver.org/api/v1/invoices">
+    <input type="hidden" name="storeId" value="J4ybYvkaR6YQDBoNZEvtn7ghwbhimtqQQwREunjMSJaM"/>
+    <input type="hidden" name="price" value="19.99"/>
+    <input type="hidden" name="currency" value="USD"/>
+    <button type="submit">Pay with Bitcoin/Lightning</button>
+  </form>
+</body>
+</html>
